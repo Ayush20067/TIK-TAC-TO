@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+body{
+    
+    background-image: url('https://wallpapercave.com/wp/wp2694479.jpg');
+    opacity: 0.5;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 85px;
+    font-size: 60px;
+    
+    align-items: center;
+    
+}
+.choice{
+    height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 210px;
+  width: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+  .choices{
+     height: 350px; 
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+     }
+.score{
+    font-size: 2rem;
+    display: inline-block;
+    color: white;
+    
+
+} 
+.ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 5rem;
+}
+#users , #comps{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+
+}
+.disp-msg{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.msg{
+    font-size: 3rem;
+    
+    background-color: coral;
+    display: inline;
+    font-family: cursive;
+    border: 4px black solid;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.choice:hover{
+    border: 6px black solid;
+    opacity: 0.5;
+    cursor: pointer;
+    
+
+}
+.win-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 750px;
+}
+.hide{
+    display: none;
+}
+video{
+    height: 600px;
+    width: auto;
+
+}
